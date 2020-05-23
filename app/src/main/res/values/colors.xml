@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#24C68A</color>
+    <color name="colorPrimaryDark">#24C68A</color>
+    <!--按钮等控件的主题色-->
+    <color name="colorAccent">#24C68A</color>
+    <color name="colorWhite">#ffffff</color>
+    <!--按钮点中时的颜色-->
+    <color name="colorBlueTransparent">#2024C68A</color>
+    <!-- 登陆界面字体颜色-->
+    <color name="colorGrayBlack">#464646</color>
+    <color name="colorGray">#c0c0c0</color>
+    <!--日期时间选择器的相关颜色-->
+    <color name="date_picker_bg">#FFFFFF</color>
+    <color name="date_picker_divider">#11112233</color>
+    <color name="date_picker_text_light">#59B29C</color>
+    <color name="date_picker_text_dark">#333333</color>
+    <color name="colorFood">#e5bc84</color>
+    <color name="pregnancy_color_181818">#181818</color>
+    <color name="pregnancy_color_888888">#888888</color>
+    <color name="pregnancy_color_49c9c9">#49c9c9</color>
+    <color name="pregnancy_color_5a5a66">#5a5a66</color>
+    <color name="pregnancy_color_f5f5f5">#f5f5f5</color>
+    <color name="pregnancy_color_ececec">#ececec</color>
+</resources>

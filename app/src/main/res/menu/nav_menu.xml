@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/body_data"
+            android:icon="@mipmap/body_data"
+            android:title="身体数据"/>
+        <item
+            android:id="@+id/diet_sort"
+            android:icon="@mipmap/diet_sort"
+            android:title="饮食评分"/>
+        <item
+            android:id="@+id/diet_record"
+            android:icon="@mipmap/diet_record"
+            android:title="饮食记录"/>
+        <item
+            android:id="@+id/set"
+            android:icon="@mipmap/set"
+            android:title="设置"/>
+    </group>
+</menu>

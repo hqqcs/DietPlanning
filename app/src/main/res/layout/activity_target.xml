@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/MainEvaluate"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    tools:context=".question.TargetActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="您的目标?"
+            style="@style/textView_question_style1"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:gravity="center"
+            android:orientation="vertical">
+            <RadioGroup
+                android:id="@+id/radio_sport_target"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="30dp">
+                <RadioButton
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:id="@+id/radio_sport_target1"
+                    android:text="减脂"
+                    style="@style/button_radio_style1" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.5"
+                    android:gravity="center"
+                    android:text="减去全身的多余脂肪"/>
+                <RadioButton
+                    android:id="@+id/radio_sport_target2"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="局部塑形"
+                    android:layout_marginTop="10dp"
+                    style="@style/button_radio_style1" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.5"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:text="改善身体的局部线条"/>
+                <RadioButton
+                    android:id="@+id/radio_sport_target3"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="增肌"
+                    android:layout_marginTop="10dp"
+                    style="@style/button_radio_style1" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.5"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:text="打造立体的身型"/>
+                <RadioButton
+                    android:id="@+id/radio_sport_target4"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="保持健康"
+                    android:layout_marginTop="10dp"
+                    style="@style/button_radio_style1" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.5"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:text="提升身体素质，保持健康体魄"/>
+            </RadioGroup>
+        </LinearLayout>
+    </LinearLayout>
+    <Button
+        android:id="@+id/next_st"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/button_nomal_style"
+        android:layout_marginBottom="20dp"
+        android:text="下一步"/>
+
+</LinearLayout>

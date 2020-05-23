@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/MainEvaluate"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    tools:context=".question.CoefActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="您平时的活动强度?"
+            style="@style/textView_question_style1"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:gravity="center"
+            android:orientation="vertical">
+            <RadioGroup
+                android:id="@+id/radio_coef"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="25dp">
+                <RadioButton
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:id="@+id/radio_coef1"
+                    android:text="久坐的工作方式"
+                    style="@style/button_radio_style1" />
+                <RadioButton
+                    android:id="@+id/radio_coef2"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="工作时有时走动或者站立"
+                    android:layout_marginTop="15dp"
+                    style="@style/button_radio_style1" />
+                <RadioButton
+                    android:id="@+id/radio_coef3"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="工作中经常走动或者站立"
+                    android:layout_marginTop="15dp"
+                    style="@style/button_radio_style1" />
+                <RadioButton
+                    android:id="@+id/radio_coef4"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="工作中有较多的体力劳动"
+                    android:layout_marginTop="15dp"
+                    style="@style/button_radio_style1" />
+                <RadioButton
+                    android:id="@+id/radio_coef5"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="工作中有很大的体力劳动"
+                    android:layout_marginTop="15dp"
+                    style="@style/button_radio_style1" />
+            </RadioGroup>
+        </LinearLayout>
+    </LinearLayout>
+    <Button
+        android:id="@+id/next_coef"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/button_nomal_style"
+        android:layout_marginBottom="20dp"
+        android:text="完成"/>
+
+</LinearLayout>
